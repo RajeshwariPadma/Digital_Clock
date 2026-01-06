@@ -30,8 +30,8 @@
     position: absolute;
     top: 250px;
     left: 280px;
-    transform: translateY(-10px ,19px);
-     
+    transform: translate(25px ,-10px);
+     /* transform: translateX(19px); */
     width: 150px;
     height: 150px;
     border-radius: 20px;
@@ -43,8 +43,8 @@
     position: absolute;
     bottom: 250px;
     right: 280px;
-    transform: translate(-45px , -25px);
-     
+    transform: translate(-25px ,15px  );
+      /* transform: translateX(-25px); */
     width: 150px;
     height: 150px;
     border-radius: 20px;
