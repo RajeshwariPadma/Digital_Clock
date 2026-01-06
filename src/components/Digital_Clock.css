@@ -1,0 +1,54 @@
+.digitalclock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 97vh;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: monospace;
+     color: rgba(255, 255, 255, 0.866);
+     background-color: rgba(132, 132, 132, 0.597);
+
+   }
+
+.clockbody {
+
+    background: linear-gradient(45deg, rgb(238, 127, 127), rgb(135, 135, 235), rgb(114, 245, 114), rgb(253, 253, 105), rgb(249, 159, 174));
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    z-index: 3;
+}
+
+.upperbox {
+    position: absolute;
+    top: 250px;
+    left: 280px;
+    transform: translateY(-10px);
+     transform: translateX(19px);
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: linear-gradient(45deg,  rgb(249, 159, 174), rgb(253, 253, 105), rgb(114, 245, 114), rgb(135, 135, 235), rgb(238, 127, 127));
+    z-index: 1;
+}
+
+.lowerbox {
+    position: absolute;
+    bottom: 250px;
+    right: 280px;
+    transform: translateY(-45px);
+      transform: translateX(-25px);
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    backdrop-filter: blur(-10px);
+    background: linear-gradient(30deg, rgb(249, 159, 174), rgb(253, 253, 105), rgb(114, 245, 114), rgb(135, 135, 235), rgb(238, 127, 127));
+    z-index: 1;
+}
